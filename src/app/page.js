@@ -1421,7 +1421,7 @@ export default function Home() {
               <div className="benefit-item">
                 <div className="benefit-item-content">
                   <div className="benefit-item-title">
-                    <h2>Connect with the desert's untamed beauty</h2>
+                    <h2>Connect with the desert&apos;s untamed beauty</h2>
                   </div>
                   <div className="benefit-item-description">
                     <div className="benefit-item-counter">
@@ -1473,9 +1473,9 @@ export default function Home() {
             </div>
             <div className="adventure-description-container">
               <h2>
-                We want to make sure your stay is exciting and enjoyable. That's
+                We want to make sure your stay is exciting and enjoyable. That&apos;s
                 why we offer a variety of activities with different levels of
-                engagement. Whether you seek thrills or tranquility, there's
+                engagement. Whether you seek thrills or tranquility, there&apos;s
                 something for everyone to make your desert stay truly memorable.
               </h2>
             </div>

@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/ombhalodiya/Documents/react/capsule/src/app/layout\":[\"static/media/5248a50f8f314535-s.p.ttf\",\"static/media/90d95c63c6e090ac-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/ombhalodiya/Documents/react/capsule/src/app/layout":["static/media/90d95c63c6e090ac-s.p.ttf","static/media/5248a50f8f314535-s.p.ttf"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
