@@ -1,5 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
+import Image from "next/image";
 import Lenis from "lenis";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -1164,7 +1166,7 @@ export default function Home() {
             </div>
           </nav>
 
-          <img src="/homepage/hero.png" alt="hero-image" />
+          <Image src="/homepage/hero.png" alt="hero-image" width={1000} height={1000} />
           <div className="hero-header">
             <h1 className="hero-title" ref={heroTitleRef}>
               Capsules
@@ -1197,8 +1199,8 @@ export default function Home() {
           </div>
           <div className="about-footer">
             <div className="about-image">
-              <img src="/homepage/welcome-1.png" alt="about-image" />
-              <img src="/homepage/welcome-2.png" alt="about-image" />
+              <Image src="/homepage/welcome-1.png" alt="about-image" width={1000} height={1000} />
+              <Image src="/homepage/welcome-2.png" alt="about-image" width={1000} height={1000} />
             </div>
             <div className="about-footer-text">
               <h2>
@@ -1257,7 +1259,7 @@ export default function Home() {
             </div>
             <div className="card-item">
               <div className="card-item-image">
-                <img src="/homepage/card1.png" alt="card-image" />
+                <Image src="/homepage/card1.png" alt="card-image" width={1000} height={1000} />
               </div>
               <div className="card-item-text-content">
                 <div className="card-item-content">
@@ -1279,7 +1281,7 @@ export default function Home() {
           <div className="card-wrapper">
             <div className="card-item">
               <div className="card-item-image">
-                <img src="/homepage/card2.png" alt="card-image" />
+                <Image src="/homepage/card2.png" alt="card-image" width={1000} height={1000} />
               </div>
               <div className="card-item-text-content">
                 <div className="card-item-content">
@@ -1301,7 +1303,7 @@ export default function Home() {
           <div className="card-wrapper">
             <div className="card-item">
               <div className="card-item-image">
-                <img src="/homepage/card3.png" alt="card-image" />
+                <Image src="/homepage/card3.png" alt="card-image" width={1000} height={1000} />
               </div>
               <div className="card-item-text-content">
                 <div className="card-item-content">
@@ -1388,7 +1390,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="benefit-item-image">
-                  <img src="/homepage/benefit-1.jpg" alt="benefit-1" />
+                  <Image src="/homepage/benefit-1.jpg" alt="benefit-1" width={1000} height={1000} />
                 </div>
               </div>
 
@@ -1412,7 +1414,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="benefit-item-image">
-                  <img src="/homepage/benefit-2.jpg" alt="benefit-2" />
+                  <Image src="/homepage/benefit-2.jpg" alt="benefit-2" width={1000} height={1000} />
                 </div>
               </div>
 
@@ -1434,7 +1436,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="benefit-item-image">
-                  <img src="/homepage/benefit-3.jpg" alt="benefit-3" />
+                  <Image src="/homepage/benefit-3.jpg" alt="benefit-3" width={1000} height={1000} />
                 </div>
               </div>
             </div>
@@ -1501,7 +1503,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="rides-slider-image">
-                <img src="/homepage/card1.png" alt="Desert ride experience" />
+                <Image src="/homepage/card1.png" alt="Desert ride experience" width={1000} height={1000} />
               </div>
             </div>
 
@@ -1525,7 +1527,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="rides-slider-image">
-                <img
+                <Image
                   src="/homepage/card2.png"
                   alt="Night adventure experience"
                 />
@@ -1552,9 +1554,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="rides-slider-image">
-                <img
+                    <Image
                   src="/homepage/card2.png"
                   alt="Night adventure experience"
+                  width={1000}
+                  height={1000}
                 />
               </div>
             </div>
@@ -1584,7 +1588,7 @@ export default function Home() {
           </div>
           <div className="reserve-background">
             <div className="reserve-image-wrapper">
-              <img src="/homepage/hero.png" alt="Screen background" />
+              <Image src="/homepage/hero.png" alt="Screen background" width={1000} height={1000} />
             </div>
           </div>
         </div>
@@ -1608,36 +1612,36 @@ export default function Home() {
                   <br /> If you would like to outsource a similar website
                   project—
                   <span>
-                    <a href="mailto:ombhalodiya4545@gmail.com">contact us.</a>
+                    <Link href="mailto:ombhalodiya4545@gmail.com">Contact us.</Link>
                   </span>
                 </h2>
               </div>
 
               <div className="footer-info-right">
                 <div className="footer-info-page-links">
-                  <a href="/">Welcome</a>
-                  <a href="/">Introduction</a>
-                  <a href="/">Houses</a>
-                  <a href="/">Why Capsules®</a>
-                  <a href="/">Activities</a>
-                  <a href="/">Feedback</a>
+                  <Link href="/">Welcome</Link>
+                  <Link href="/">Introduction</Link>
+                  <Link href="/">Houses</Link>
+                  <Link href="/">Why Capsules®</Link>
+                  <Link href="/">Activities</Link>
+                  <Link href="/">Feedback</Link>
                 </div>
               </div>
             </div>
             <div className="footer-social-and-paragraph">
               <div className="footer-social-links">
-                <a href="/">
-                  <img src="/homepage/linked-in.svg" alt="LinkedIn" />
-                </a>
-                <a href="/">
-                  <img src="/homepage/instagram.svg" alt="Instagram" />
-                </a>
-                <a href="/">
-                  <img src="/homepage/dribble.svg" alt="Dribble" />
-                </a>
-                <a href="/">
-                  <img src="/homepage/behance.svg" alt="Behance" />
-                </a>
+                <Link href="/">
+                  <Image src="/homepage/linked-in.svg" alt="LinkedIn" width={1000} height={1000} />
+                </Link>
+                <Link href="/">
+                  <Image src="/homepage/instagram.svg" alt="Instagram" width={1000} height={1000} />
+                </Link>
+                <Link href="/">
+                  <Image src="/homepage/dribble.svg" alt="Dribble" width={1000} height={1000} />
+                </Link>
+                <Link href="/">
+                  <Image src="/homepage/behance.svg" alt="Behance" width={1000} height={1000} />
+                </Link>
               </div>
               <p>
                 Meet Capsules®—modern and cozy houses, in the California desert.

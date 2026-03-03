@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 import './Menu.css';
 import '../app/globals.css';
 import { gsap } from 'gsap';
@@ -136,19 +137,19 @@ const Menu = () => {
           <div className="menuContentInner">
             <nav className="menuNav">
           <ul>
-                <li><a href="#">Welcome</a></li>
-                <li><a href="#">Introduction</a></li>
-            <li><a href="#">Houses</a></li>
-                <li><a href="#">Why Capsules<sup>®</sup></a></li>
-            <li><a href="#">Activities</a></li>
-                <li><a href="#">Feedback</a></li>
+                <li><Link href="#">Welcome</Link></li>
+                <li><Link href="#">Introduction</Link></li>
+            <li><Link href="#">Houses</Link></li>
+                <li><Link href="#">Why Capsules<sup>®</sup></Link></li>
+            <li><Link href="#">Activities</Link></li>
+                <li><Link href="#">Feedback</Link></li>
           </ul>
             </nav>
             <div className="menuFooter">
               <div className="menuFooterLeft">
-                <a href="#" className="footerIcon">in</a>
-                <a href="#" className="footerIcon">ig</a>
-                <a href="#" className="footerIcon">be</a>
+                <Link href="#" className="footerIcon">in</Link>
+                <Link href="#" className="footerIcon">ig</Link>
+                <Link href="#" className="footerIcon">be</Link>
               </div>
             </div>
             <div className="menuFooterDescription">
