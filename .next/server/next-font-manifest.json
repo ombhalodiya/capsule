@@ -1,1 +1,15 @@
-{"pages":{},"app":{"/Users/ombhalodiya/Documents/react/capsule/src/app/layout":["static/media/90d95c63c6e090ac-s.p.ttf","static/media/5248a50f8f314535-s.p.ttf"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/src/app/_not-found/page": [
+      "static/media/HostGrotesk_VariableFont_wght-s.p.fa5cc9c4.ttf",
+      "static/media/HostGrotesk_Italic_VariableFont_wght-s.p.3e5539f0.ttf"
+    ],
+    "[project]/src/app/page": [
+      "static/media/HostGrotesk_VariableFont_wght-s.p.fa5cc9c4.ttf",
+      "static/media/HostGrotesk_Italic_VariableFont_wght-s.p.3e5539f0.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
